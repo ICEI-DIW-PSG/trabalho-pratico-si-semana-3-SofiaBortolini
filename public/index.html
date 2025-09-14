@@ -3,10 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Next Trip</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!--Barra superior-->
+    <header class="topo">
+        <img src="logo.png">
+        <input type="text" placeholder="Para onde deseja ir?"><button>Buscar</button>
+        <div class="Contato"> Canal de Atendimento (31) 3456-7890</div>
+        <button> Minhas viagens</button>
+    </header>
+    <!--Cabeçalho-->
+    <header>
+        <nav class= "caixa-menuprincipal">
+            <ul>
+                <li><a href= "pacotes.html">Pacotes</a></li>
+                <li><a href= "passagens.html">Passagens</a></li>
+                <li><a href= "hoteis.html">Hotéis</a></li>
+                <li><a href= "promoçoes.html">Promoções</a></li>
+                <li><a href= "terrestres.html">Terrestres</a></li>
+                <li><a href= "aereos.html">Aéreos</a></li>
+                <li><a href= "cruzeiro.html">Cruzeiro</a></li>
+                <li><a href= "internacional.html">Internacional</a></li>
+                <li><a href= "praias.html">Praias</a></li>
+                <li><a href= "pacotesprontos.html">Pacotes prontos</a></li>
+                <li><a href= "paratodafamilia.html">Para toda família</a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+    <!--Barra de buscas-->
+    <section class="Busca">
+        <h5>Seu próximo destino começa aqui...</h5>
+        <form>
+            <label><input type="radio" name="tipo" checked>Ida e volta</label>
+            <label><input type="radio" name="tipo">Só ida </label>
+            <label><input type="radio" name="tipo">Vários destinos </label>
+            <br>
+            Origem: <input type="text">
+            Destino: <input type="text">
+            Início: <input type="date">
+            Fim: <input type="date">
+            N° de viajantes: <input type="number" min="1">
+            <button type="submit">Buscar</button>
+        </form>
+        
+
+    </section>
+    <!--Postagens-->
+    <main>
+        <article class="Caixa-post1">
+            <img src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmlvJTIwZGUlMjBqYW5laXJvfGVufDB8fDB8fHww" alt="Imagem Rio de Janeiro">
+            <h1 class="titulo">"Pacotes para Rio de Janeiro"></h1>
+            <p class="Viagem com conforto e qualidade">
+                13/11/2025 até 16/11/2025<br>
+                Voo direto SP -> RJ<br>
+                Hospedagem: Rio da Lapa<br>
+                R$ 516,00 por pessoa<br>
+            </p>
+        </article> 
+        <article class="Caixa-post2"> 
+            <img src="https://portosegurobahia.com.br/wp-content/uploads/2021/04/porto-seguro-bahia-1500x844-1.jpg" alt="Imagem Porto Seguro">
+            <h3 class= "titulo">"Pacotes para Porto Seguro"></h3>
+            <p class="Viagem com conforto e qualidade">
+              10/12/2025 até 15/12/2025<br>
+              Voo direto SP -> BPS<br>
+              Hospedagem: Astral Mucugê Pousada<br>
+              R$ 1.137,00 por pessoa<br>
+            </p>
+        </article> 
+        <article class="Caixa-post3"> 
+            <img src="https://dicasmaceioemaragogi.com.br/wp-content/uploads/sites/17/2021/07/maceio-cidade-brasil.jpg" alt="Imagem Maceió">
+            <h4 class="titulo">"Pacotes para Maceió"></h4>
+            <p class="Viagem com conforto e qualidade">
+                29/03/2026 até 03/04/2026<br>
+                Voo direto SP -> MCZ<br>
+                Hospedagem: Reymar Express<br>
+                R$1.548,00 por pessoa<br>
+            </p>
+        </article>
+    </main>
+
     
 </body>
 </html>
